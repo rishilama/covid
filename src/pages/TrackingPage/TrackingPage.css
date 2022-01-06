@@ -1,0 +1,170 @@
+.global-cases__container{
+    position: relative;
+    top: -40px;
+}
+
+.global-content{
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 6px 21px -1px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 2px 6px 21px -1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 2px 6px 21px -1px rgba(0,0,0,0.35);
+    display: grid;
+    grid-template-columns: 200px;
+    gap: 20px;
+} 
+
+
+.flex-container{
+    display: flex;
+}
+
+.right-side{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.static-track__heading,
+.dynamic-track__heading{
+    color: #262C7C;
+    cursor: default;
+}
+
+.track__subtitle{
+    color: rgb(105, 105, 105);
+}
+
+@media(min-width:500px){
+    .global-content{
+        padding: 30px 40px;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media(min-width:768px){
+    .global-content{
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media(min-width:1400px){
+    .global-content{
+        grid-template-columns: repeat(4, auto);
+    }
+}
+
+h2{
+    margin-top: -20px;
+}
+
+.global__track-image{
+    width: 50px;
+    height: 50px;
+}
+
+
+.data-container{
+    margin-bottom: 80px;
+    padding: 30px 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 6px 21px -1px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 2px 6px 21px -1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 2px 6px 21px -1px rgba(0,0,0,0.35);
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+}
+
+.map{
+    border-bottom: 1px solid lightgray;
+}
+
+.world-image{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.data{
+    margin-top: 20px;
+    display: grid;
+    justify-content: space-around;
+}
+
+@media(min-width:768px){
+    .data{
+        grid-template-columns: 300px 300px;
+        justify-content: space-around;
+    }
+}
+@media(min-width:1200px){
+    .data{
+        grid-template-columns: 300px 300px 300px;
+        justify-content: space-around;
+    }
+}
+
+.flag{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.covid-container{
+    padding: 0 10px;
+    margin-bottom: 18px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.covid-container:hover{
+    top: -8px;
+}
+
+.covid-container p{
+    cursor: pointer;
+}
+
+.country-name{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: 600;
+}
+
+.country-name img{
+    margin-right: 20px;
+}
+
+.active-cases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 18px;
+    color: rgb(63, 63, 63);
+}
+
+.search-country{
+   display: flex;
+   justify-content: flex-end;
+}
+
+.input-box{
+    width: 100%;
+    padding:10px 5px;
+    border: none;
+    border-bottom: 1px solid darkgray;
+}
+
+.input-box:focus{
+    outline: none;
+}

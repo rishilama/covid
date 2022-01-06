@@ -1,0 +1,59 @@
+.login-content{
+    padding: 80px 0px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+}
+
+label{
+    margin-bottom: -10px;
+}
+
+label:not(:first-child){
+    margin-top: 20px;
+}
+
+.input{
+    width: 90%;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    border: 1px solid darkgray;
+}
+
+@media(min-width:768px){
+    .loginForm{
+        width: 40%;
+    }
+    .input{
+        width: 100%;
+    }
+}
+
+.login-button{
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #262C7C;
+    color: white;
+    width: 20%;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
