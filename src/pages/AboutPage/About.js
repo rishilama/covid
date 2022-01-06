@@ -9,7 +9,7 @@ function About() {
                 <div className="container">
                     <div className="text-section">
                         <h2 className="text-subtitle">
-                            Who am I?
+                            Whoooooooo am I?
                         </h2>
                         <h1 className="text-heading">
                             Developer, Thinker & Designer
