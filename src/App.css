@@ -139,7 +139,7 @@ header{
 button span{
     position: relative;
     z-index: 1;
-    background-color: red;
+    background-color: white;
     width: 100%;
     height: 3px;
 }
@@ -284,7 +284,7 @@ button span{
     margin-top: 18px;
     margin-bottom: 80px;
     width: 100%;
-    height: 85vh;
+    height: auto;
     display: flex;
 }
 
@@ -391,10 +391,10 @@ button span{
     align-items: center;
 }
 
-@media(max-width:768px){
+@media(max-width:999px) {
     .track-page__section{
         flex-direction: column-reverse;
-    }
+    }    
     .track-image{
         padding-top: 40px;
         width: 400px;
