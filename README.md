@@ -1,2 +1,2 @@
-
-https://pedantic-mccarthy-0d325d.netlify.app/
+Covid App
+	https://pedantic-mccarthy-0d325d.netlify.app/
