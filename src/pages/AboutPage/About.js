@@ -19,10 +19,12 @@ function About() {
             </div>
             <div className="container">
                 <div className="about-content">
-                    <h1 className="about-heading">
-                        About Me
-                    <hr className='rule' />
-                    </h1>
+                    <div className='left-side'>
+                        <h1 className="about-heading">
+                            About Me
+                            <hr className='rule' />
+                        </h1>
+                    </div>
 
                     <div className="about-details">
                         <h3 className="details-heading">
